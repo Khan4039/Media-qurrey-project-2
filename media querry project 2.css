@@ -1,0 +1,128 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #111827;
+    color: aliceblue;
+    text-align: center;
+    font-size: 2em;
+    line-height: 60%;
+}
+.color-text{
+    color: yellow;
+}
+.mid{
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-color:blue;
+    text-decoration-thickness: 6px;  
+    padding: 5%;
+}
+button{
+    color: aliceblue;
+    background-color:#474997 ;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    margin: 0%;
+}
+section-1{
+    font-size: 0.5em;
+}
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* for mibile user under 500px */
+@media (max-width:500px) {
+    .desk{
+        display: none;
+    }
+    .hand{
+        width: 12%;
+    }
+    .pc{
+        width: 60%;
+    }
+    nav{
+        text-align: left;
+    }
+    img.mob{
+        width: 7%;
+        margin: 5%;
+        
+    }
+    section-1 img{
+        width: 60%;
+    }
+    footer img{
+        width: 8%;
+        padding: 2%;
+        margin-bottom:8%;
+    }
+}
+
+/* for desktop user over 500px */
+@media (min-width:500px) {
+    .mob{
+        display: none;
+    }
+    .desk{
+        width: 25%;
+        text-align:left;
+        margin-right: 3%;
+        margin-left: auto;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        font-size: 0.5em;
+        align-items: center;
+        justify-items: center;
+    }
+
+    
+    .hand{
+        width: 1em;
+        height: 1.5em;
+        margin: 0%;
+        padding: 0%;
+    }
+    .pc{
+        width: 35%;
+        height: 20%;
+    }
+    section  div div-1 {
+        display:flex;
+        align-items: center;
+        height: 1.5em;
+    }
+
+    section div{
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: left;
+    }
+    section{
+        display: flex;
+        align-content: center;
+        justify-content: center;       
+    }
+    .mid{
+        padding: 0%;
+        margin-top: 4%;
+    }
+    section-1{
+        display: flex;
+        margin: 0% 20%;
+    }
+    section-1 img{
+        width: 95%;
+    }
+    footer img{
+        width: 3%;
+        padding: 2%;
+        margin-bottom:2%;
+    }
+}
+
+   
